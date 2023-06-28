@@ -1,0 +1,6 @@
+package com.example.fiufit_docs
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity: FlutterActivity() {
+}
