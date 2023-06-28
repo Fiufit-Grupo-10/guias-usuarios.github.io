@@ -97,4 +97,47 @@ final List<Map<String, dynamic>> docsCardApp = [
     'descr':
         'Para visualizar una notificación por meta cumplica primero deberá realizar algun/os ejercicios que sumen puntos en las metas creadas, para ello primero elija el plan de entrenamiento a iniciar, realice los ejercicios y finalice el plan, si alcanzo la meta llegará una noptificación de la misma.'
   },
+  {
+    'title': 'Login con datos biométricos (Optativa)',
+    'images':
+        'https://drive.google.com/uc?export=view&id=1K5Ovp1pmEjn7NY3UWs9dvytl3jClWOEm https://drive.google.com/uc?export=view&id=1OCZPAbuAZ85ppYRR5gWIyexwUeuvo8bJ https://drive.google.com/uc?export=view&id=1wVQ5y3KgDPUIKKir3sJAuYe2tnkjShS5',
+    'descr': ''
+  },
+  {
+    'title': 'Recupero de contraseña (Optativa)',
+    'images':
+        'https://drive.google.com/uc?export=view&id=1B4hRGHu0VavoGBAVig3nE6LCkgLUUNkb https://drive.google.com/uc?export=view&id=1W407CKqHM6d1aunODnKLxYEPLPX8ma_o https://drive.google.com/uc?export=view&id=1F0iRGKGVAUlrjqYJ8yLikkCU0UJs_7JJ',
+    'descr': ''
+  },
+  {
+    'title': ' Notificación de PIN en proceso de registro (Optativa)',
+    'images':
+        'https://drive.google.com/uc?export=view&id=11HcA1OFhnHI4xwQe_c12t9Rot47UeiUu https://drive.google.com/uc?export=view&id=1Lajhk7uvkkFwdXxtwFwNzxepFhha6IsD https://drive.google.com/uc?export=view&id=1tjV-52Ompy-JhdfDX206ITHK4PKlHCwY https://drive.google.com/uc?export=view&id=1Y45tzlClfYOwitzLlsZBqd4IprfK0wOn',
+    'descr': ''
+  },
+  {
+    'title': 'Búsquedas por dificultad (Optativa)',
+    'images':
+        'https://drive.google.com/uc?export=view&id=1rG5_RR9SQ5ufFH6DzPhk-NVv0stFOW_U https://drive.google.com/uc?export=view&id=1Sx40vSK1jANULDYEBsEMkeqiYYmORhhs',
+    'descr': ''
+  },
+  {
+    'title': 'Entrenamientos favoritos (Optativa)',
+    'images':
+        'https://drive.google.com/uc?export=view&id=1NjWM5D-bCLvh2n2LGC2KCgCblsdO21zW https://drive.google.com/uc?export=view&id=14vxkD4cokSVmJDZnamWINf1y52OXODPP https://drive.google.com/uc?export=view&id=1yCCw1RjLzBx6NSeKKFUPtbfTgPgnhcKV https://drive.google.com/uc?export=view&id=1ZGG1vOTBGCPtW_SIdNUFPMaNekTsX6-P',
+    'descr': ''
+  },
+  {
+    'title': 'Redes sociales (Optativa)',
+    'images':
+        'https://drive.google.com/uc?export=view&id=1R0rA2JaFX1RySo0wDxhNSIw0Kbe4mP7Z https://drive.google.com/uc?export=view&id=1C4gR1g4lfVWGomBoVcvKawW4YhnN4BFn https://drive.google.com/uc?export=view&id=1VXYmqZahvxwRBDeGF556Hv9f1XjDOkKr https://drive.google.com/uc?export=view&id=1ClUvCOtMLFiV0iSp2-gS6A5pWAn5DU3M https://drive.google.com/uc?export=view&id=1SRpNpqgDP73BXuo3F3lAXsXYYqLmeDx_ https://drive.google.com/uc?export=view&id=1rmzuJHHbfVfwVe7KbXZv6-pf_LZlVQko https://drive.google.com/uc?export=view&id=1n_Iag6v15FWGl8EAehoxSLQlkJmd3uQp',
+    'descr': ''
+  },
+  {
+    'title': 'Calificación cualitativa de un plan de entrenamiento (Optativa)',
+    'images':
+        'https://drive.google.com/uc?export=view&id=13q3FDAQpqZFF3BnSL5w8SzPhZpiCJrQk https://drive.google.com/uc?export=view&id=1pnFwbR6RKMvXuH2gl6N0zRNJofw_CbqY https://drive.google.com/uc?export=view&id=1OXnEbbadtK3jfyo4KOFvk3NfqWrk-aMc',
+    'descr': ''
+  },
+  {'title': '', 'images': '', 'descr': ''},
 ];

@@ -1,10 +1,8 @@
-import 'dart:io';
 import 'package:fiufit_docs/docs_card_app.dart';
 import 'package:fiufit_docs/docs_card_web.dart';
 import 'package:flutter/material.dart';
 import '../models/doc_cards.dart';
-
-import 'package:flutter/services.dart' show rootBundle;
+import 'package:url_launcher/url_launcher.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({
@@ -36,7 +34,6 @@ class _HomePageState extends State<HomePage> {
       docCardsList.add(docCard);
     }
 
-    print("docCardsList: $docCardsList");
     return docCardsList;
   }
 
@@ -61,48 +58,157 @@ class _HomePageState extends State<HomePage> {
         body: SingleChildScrollView(
           physics: const BouncingScrollPhysics(),
           child: Center(
-            child: SizedBox(
-              width: size.width * 0.5,
+            child: Padding(
+              padding: const EdgeInsets.only(top: 15.0),
               child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
                 mainAxisAlignment: MainAxisAlignment.start,
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  const Text(
-                    "Guia de usuario de la aplicación",
-                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 24),
-                  ),
-                  ListView.builder(
-                      shrinkWrap: true,
-                      itemCount: listaDocsApp.length,
-                      itemBuilder: (context, index) {
-                        return InkWell(
-                            child: Text(
-                              listaDocsApp[index].title,
-                              style: const TextStyle(
-                                  fontSize: 22, color: Colors.blue),
-                            ),
-                            onTap: () => Navigator.pushNamed(context, "doc",
-                                arguments: [listaDocsApp[index]]));
-                      }),
-                  const SizedBox(
-                    height: 30,
-                  ),
-                  const Text("Guia de usuario del backoffice",
+                  const Padding(
+                    padding: EdgeInsets.only(left: 30.0),
+                    child: Text(
+                      "Taller de programación 2 - FiuFit",
                       style:
-                          TextStyle(fontWeight: FontWeight.bold, fontSize: 24)),
-                  ListView.builder(
-                      shrinkWrap: true,
-                      itemCount: listaDocsWeb.length,
-                      itemBuilder: (context, index) {
-                        return InkWell(
-                            child: Text(
-                              listaDocsWeb[index].title,
-                              style: const TextStyle(
-                                  fontSize: 22, color: Colors.blue),
+                          TextStyle(fontWeight: FontWeight.bold, fontSize: 28),
+                    ),
+                  ),
+                  const SizedBox(
+                    height: 20,
+                  ),
+                  const Padding(
+                    padding: EdgeInsets.only(left: 50.0),
+                    child: Text("Integrantes: ",
+                        style: TextStyle(
+                            fontWeight: FontWeight.bold, fontSize: 24)),
+                  ),
+                  const Padding(
+                    padding: EdgeInsets.only(left: 100.0),
+                    child: Text(
+                      "\n\t- Axel Kelman \n\t- Franco Gazzola \n\t- Juan Aguirre Braun \n\t- Tomas Emanuel \n\t- Juan Cruz Caserío",
+                      style: TextStyle(fontSize: 18),
+                    ),
+                  ),
+                  const Padding(
+                    padding: EdgeInsets.only(left: 50.0, top: 20),
+                    child: Text("Links: ",
+                        style: TextStyle(
+                            fontWeight: FontWeight.bold, fontSize: 24)),
+                  ),
+                  Row(
+                    children: [
+                      const SizedBox(
+                        width: 60,
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.all(15.0),
+                        child: ElevatedButton(
+                            style: ElevatedButton.styleFrom(
+                              backgroundColor: Colors.black45,
                             ),
-                            onTap: () => Navigator.pushNamed(context, "doc",
-                                arguments: [listaDocsWeb[index]]));
-                      }),
+                            onPressed: () async {
+                              await launchUrl(Uri.https("github.com",
+                                  "/orgs/Fiufit-Grupo-10/repositories"));
+                            },
+                            child: const Text(
+                              "GitHub",
+                              style: TextStyle(color: Colors.white),
+                            )),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.all(15.0),
+                        child: ElevatedButton(
+                            style: ElevatedButton.styleFrom(
+                              backgroundColor: Colors.black45,
+                            ),
+                            onPressed: () async {
+                              await launchUrl(Uri.https(
+                                  "fiufit-grupo-10.github.io",
+                                  "/backoffice-deploy.github.io/"));
+                            },
+                            child: const Text(
+                              "BackOffice Web",
+                              style: TextStyle(color: Colors.white),
+                            )),
+                      ),
+                    ],
+                  ),
+                  Container(
+                    margin: const EdgeInsets.all(20),
+                    width: double.infinity,
+                    height: 5,
+                    color: Colors.cyan,
+                  ),
+                  const Padding(
+                    padding: EdgeInsets.only(left: 50.0, bottom: 10),
+                    child: Text(
+                      "Documentación",
+                      style:
+                          TextStyle(fontWeight: FontWeight.bold, fontSize: 28),
+                    ),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.only(left: 70.0),
+                    child: SizedBox(
+                      width: size.width * 0.5,
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        children: [
+                          const Text(
+                            "Guia de usuario de la aplicación",
+                            style: TextStyle(
+                                fontWeight: FontWeight.bold, fontSize: 24),
+                          ),
+                          const SizedBox(
+                            height: 20,
+                          ),
+                          ListView.builder(
+                              shrinkWrap: true,
+                              itemCount: listaDocsApp.length,
+                              itemBuilder: (context, index) {
+                                return Padding(
+                                  padding: const EdgeInsets.only(left: 20.0),
+                                  child: InkWell(
+                                      child: Text(
+                                        "- ${listaDocsApp[index].title}",
+                                        style: const TextStyle(
+                                            fontSize: 22, color: Colors.blue),
+                                      ),
+                                      onTap: () => Navigator.pushNamed(
+                                          context, "doc",
+                                          arguments: [listaDocsApp[index]])),
+                                );
+                              }),
+                          const SizedBox(
+                            height: 30,
+                          ),
+                          const Text("Guia de usuario del backoffice",
+                              style: TextStyle(
+                                  fontWeight: FontWeight.bold, fontSize: 24)),
+                          const SizedBox(
+                            height: 20,
+                          ),
+                          ListView.builder(
+                              shrinkWrap: true,
+                              itemCount: listaDocsWeb.length,
+                              itemBuilder: (context, index) {
+                                return Padding(
+                                  padding: const EdgeInsets.only(left: 20.0),
+                                  child: InkWell(
+                                      child: Text(
+                                        "- ${listaDocsWeb[index].title}",
+                                        style: const TextStyle(
+                                            fontSize: 22, color: Colors.blue),
+                                      ),
+                                      onTap: () => Navigator.pushNamed(
+                                          context, "doc",
+                                          arguments: [listaDocsWeb[index]])),
+                                );
+                              }),
+                        ],
+                      ),
+                    ),
+                  ),
                 ],
               ),
             ),

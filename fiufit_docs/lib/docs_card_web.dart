@@ -48,7 +48,7 @@ final List<Map<String, dynamic>> docsCardWeb = [
     'descr': 'asdasdasddasdasds'
   },
   {
-    'title': 'Bloquear usuario',
+    'title': 'Bloquear usuario (Optativa)',
     'images':
         'https://drive.google.com/uc?export=view&id=1VuHExIhYDUNGPJbFPQA7WyDie7SwWMqw https://drive.google.com/uc?export=view&id=1SEDFk5qSvUY9QDFke6DB24xt-8rQXJTi https://drive.google.com/uc?export=view&id=1P8TNOToJsUeYoZnu68umvbbP-rbOLmew',
     'descr':
