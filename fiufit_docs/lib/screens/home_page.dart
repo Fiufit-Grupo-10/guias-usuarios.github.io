@@ -94,42 +94,27 @@ class _HomePageState extends State<HomePage> {
                         style: TextStyle(
                             fontWeight: FontWeight.bold, fontSize: 24)),
                   ),
-                  Row(
+                  const Row(
                     children: [
-                      const SizedBox(
+                      SizedBox(
                         width: 60,
                       ),
-                      Padding(
-                        padding: const EdgeInsets.all(15.0),
-                        child: ElevatedButton(
-                            style: ElevatedButton.styleFrom(
-                              backgroundColor: Colors.black45,
-                            ),
-                            onPressed: () async {
-                              await launchUrl(Uri.https("github.com",
-                                  "/orgs/Fiufit-Grupo-10/repositories"));
-                            },
-                            child: const Text(
-                              "GitHub",
-                              style: TextStyle(color: Colors.white),
-                            )),
-                      ),
-                      Padding(
-                        padding: const EdgeInsets.all(15.0),
-                        child: ElevatedButton(
-                            style: ElevatedButton.styleFrom(
-                              backgroundColor: Colors.black45,
-                            ),
-                            onPressed: () async {
-                              await launchUrl(Uri.https(
-                                  "fiufit-grupo-10.github.io",
-                                  "/backoffice-deploy.github.io/"));
-                            },
-                            child: const Text(
-                              "BackOffice Web",
-                              style: TextStyle(color: Colors.white),
-                            )),
-                      ),
+                      BotonUrl(
+                          url1: "github.com",
+                          url2: "/orgs/Fiufit-Grupo-10/repositories",
+                          text: "GitHub"),
+                      BotonUrl(
+                          url1: "fiufit-grupo-10.github.io",
+                          url2: "/backoffice-deploy.github.io/",
+                          text: "BackOffice Web"),
+                      BotonUrl(
+                          url1: "fiufit-grupo-10.github.io",
+                          url2: "/backoffice-deploy.github.io/",
+                          text: "Apk"),
+                      BotonUrl(
+                          url1: "fiufit-grupo-10.github.io",
+                          url2: "/backoffice-deploy.github.io/",
+                          text: "Documentación"),
                     ],
                   ),
                   Container(
@@ -141,7 +126,7 @@ class _HomePageState extends State<HomePage> {
                   const Padding(
                     padding: EdgeInsets.only(left: 50.0, bottom: 10),
                     child: Text(
-                      "Documentación",
+                      "Guias:",
                       style:
                           TextStyle(fontWeight: FontWeight.bold, fontSize: 28),
                     ),
@@ -214,6 +199,35 @@ class _HomePageState extends State<HomePage> {
             ),
           ),
         ));
+  }
+}
+
+class BotonUrl extends StatelessWidget {
+  const BotonUrl({
+    super.key,
+    required this.url1,
+    required this.url2,
+    required this.text,
+  });
+  final String url1;
+  final String url2;
+  final String text;
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.all(10.0),
+      child: ElevatedButton(
+          style: ElevatedButton.styleFrom(
+            backgroundColor: Colors.black38.withOpacity(0.4),
+          ),
+          onPressed: () async {
+            await launchUrl(Uri.https(url1, url2));
+          },
+          child: Text(
+            text,
+            style: const TextStyle(color: Colors.white),
+          )),
+    );
   }
 }
 

@@ -81,7 +81,7 @@ final List<Map<String, dynamic>> docsCardApp = [
     'images':
         'https://drive.google.com/uc?export=view&id=1WQIh8SeubtFhnw_uzizdzRQGxn6aTXZO https://drive.google.com/uc?export=view&id=1PP209SgRGTDd_LsWYAcJuzDyrT5A40Ya https://drive.google.com/uc?export=view&id=1KX98EUFWZMRcLEUGQgyLfK3JP20yuFYS https://drive.google.com/uc?export=view&id=1MqXZCE8q2FX0xpvyqDVQ16F0LUN13UbB',
     'descr':
-        'Si se desea utilizar la funcionalidad de envió de mensajes a otros usuarios se deberá ingrear al menu de mensajes y seleccionar (o buscar) el correspondiente usuario, finalmente podrá enviar y recibir mensajes con el respectivo usuario seleccioando.'
+        'Si se desea utilizar la funcionalidad de envió de mensajes a otros usuarios se deberá ingresar al menu de mensajes y seleccionar (o buscar) el correspondiente usuario, finalmente podrá enviar y recibir mensajes con el respectivo usuario seleccionado.'
   },
   {
     'title': 'Calificación cuantitativa de un plan de entrenamiento',
