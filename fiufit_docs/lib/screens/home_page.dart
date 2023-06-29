@@ -2,6 +2,7 @@ import 'package:fiufit_docs/docs_card_app.dart';
 import 'package:fiufit_docs/docs_card_web.dart';
 import 'package:flutter/material.dart';
 import '../models/doc_cards.dart';
+// ignore: depend_on_referenced_packages
 import 'package:url_launcher/url_launcher.dart';
 
 class HomePage extends StatefulWidget {
@@ -230,22 +231,6 @@ class BotonUrl extends StatelessWidget {
             text,
             style: const TextStyle(color: Colors.white),
           )),
-    );
-  }
-}
-
-class CustomDocCard extends StatelessWidget {
-  const CustomDocCard({super.key, required this.title, required this.docs});
-  final String title;
-  final List<Map<String, dynamic>> docs;
-  @override
-  Widget build(BuildContext context) {
-    return Column(
-      children: [
-        Text(title),
-        ListView.builder(
-            itemCount: docs.length, itemBuilder: (context, index) {})
-      ],
     );
   }
 }

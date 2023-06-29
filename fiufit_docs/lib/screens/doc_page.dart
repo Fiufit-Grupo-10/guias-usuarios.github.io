@@ -1,6 +1,6 @@
-// import 'package:fiufit_docs/screens/screens.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
+// ignore: depend_on_referenced_packages
 import 'package:image_network/image_network.dart';
 import '../models/doc_cards.dart';
 
@@ -17,8 +17,6 @@ class DocPage extends StatelessWidget {
 
     final expandedHeight = size.height * 0.7;
     final width = size.width * 0.3;
-    // final CarouselController _controller = CarouselController();
-    print("${docPage.pathImages}");
     return Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.cyan,
@@ -64,7 +62,7 @@ class DocPage extends StatelessWidget {
                         color: Colors.indigo),
                   ),
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 20,
                 ),
                 SizedBox(

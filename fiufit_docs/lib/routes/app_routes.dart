@@ -6,7 +6,7 @@ class AppRoutes {
   static const initialRoute = 'home';
 
   static Map<String, Widget Function(BuildContext)> routes = {
-    'home': (BuildContext context) => HomePage(),
-    'doc': (BuildContext context) => DocPage(),
+    'home': (BuildContext context) => const HomePage(),
+    'doc': (BuildContext context) => const DocPage(),
   };
 }
