@@ -30,22 +30,23 @@ final List<Map<String, dynamic>> docsCardWeb = [
   {
     'title': 'Listado de planes de entrenamiento',
     'images':
-        'https://drive.google.com/drive/u/2/folders/1z0P9j1a7oo8ZvxrzP6QS8mCNyw5Mx3KP',
+        'https://drive.google.com/uc?export=view&id=1_M1-P8frAHk0Xthry03-4U_aKB5f-b_v https://drive.google.com/uc?export=view&id=1eU78kfp0uTetnvEnHzxpu4DCV8It3CqV',
     'descr':
         'Para visualizar la lista de entrenamientos creados, diríjase al menu de Entrenamientos, allí encontrará la lista de los mismos.'
   },
   {
     'title': 'Visualizacion de plan de entrenamiento',
     'images':
-        'https://drive.google.com/drive/u/2/folders/1z0P9j1a7oo8ZvxrzP6QS8mCNyw5Mx3KP',
+        'https://drive.google.com/uc?export=view&id=1U50q67dWgY_KFEusLfm6QVRW4ETdSczB https://drive.google.com/uc?export=view&id=1rfWc0l2Z-HIsIKH9VPY_nR-qUbpqn6wO',
     'descr':
         'Si desea visualizar los detalles de un entrenamiento, deberá ingresar a la lista de los mismos y luego clickear en el icono para acceder al detalle.'
   },
   {
     'title': 'Metricas de usuarios',
     'images':
-        'https://drive.google.com/drive/u/2/folders/1z0P9j1a7oo8ZvxrzP6QS8mCNyw5Mx3KP',
-    'descr': 'asdasdasddasdasds'
+        'https://drive.google.com/uc?export=view&id=1wvNrgnkX-nXeAgnATBZyzBdE8_AFZeaT https://drive.google.com/uc?export=view&id=1zU3TmkcnSOiOvHZsAqYq1q297iiA3ZsH https://drive.google.com/uc?export=view&id=14LJZJPzC4_i5bO8bVXBdLx3nVAiGrCyv',
+    'descr':
+        'Para poder visualizar las métricas de los usuarios, deberá ingresar al inicio, allí encontrara las diferentes métricas contabilizadas por el sistema.'
   },
   {
     'title': 'Bloquear usuario (Optativa)',
@@ -55,16 +56,16 @@ final List<Map<String, dynamic>> docsCardWeb = [
         'Para bloquear un Usuario (impedir el ingreso en la aplicación), deberá ingresar a la lista de usuarios, seleccionar el/los usuario/s a ser bloqueados y luego clickear en el botón bloquear.'
   },
   {
-    'title': 'Bloquear Plan de Entrenamiento',
+    'title': 'Bloquear Plan de Entrenamiento (Optativa)',
     'images':
-        'https://drive.google.com/drive/u/2/folders/1z0P9j1a7oo8ZvxrzP6QS8mCNyw5Mx3KP https://drive.google.com/drive/u/2/folders/1z0P9j1a7oo8ZvxrzP6QS8mCNyw5Mx3KP https://drive.google.com/drive/u/2/folders/1z0P9j1a7oo8ZvxrzP6QS8mCNyw5Mx3KP',
+        'https://drive.google.com/uc?export=view&id=1cK6kWFiZrlID2m3Lpb6u5dgOFBLvDXy_ https://drive.google.com/uc?export=view&id=1h-VI7U3COkXg0gDaGYCugaI0X_53OoK6 https://drive.google.com/uc?export=view&id=1BqKRFtkVcAQmfGaCu13PVVmLtQYDzElw',
     'descr':
         'Para bloquear un Usuario (impedir el ingreso en la aplicación), deberá ingresar a la lista de usuarios, seleccionar el/los usuario/s a ser bloqueados y luego clickear en el botón bloquear.'
   },
   {
-    'title': 'Aprobar solicitud de entrenador reconocido',
+    'title': 'Aprobar solicitud de entrenador reconocido (Optativa)',
     'images':
-        'https://drive.google.com/drive/u/2/folders/1z0P9j1a7oo8ZvxrzP6QS8mCNyw5Mx3KP https://drive.google.com/drive/u/2/folders/1z0P9j1a7oo8ZvxrzP6QS8mCNyw5Mx3KP https://drive.google.com/drive/u/2/folders/1z0P9j1a7oo8ZvxrzP6QS8mCNyw5Mx3KP',
+        'https://drive.google.com/uc?export=view&id=1S3urZIZCCpgxUvKkiRQLPpfaCTtVAwJu https://drive.google.com/uc?export=view&id=1eqqRKusv2z5rzz8MhL7bzXtArA0tzOPg https://drive.google.com/uc?export=view&id=1bVcSyxTTqjtoElvr80P9qMX-C2CcnMPb https://drive.google.com/uc?export=view&id=1OQPisA0gu3O_tjWL_WK4n6cqMxBJwGQS',
     'descr':
         'Para bloquear un Usuario (impedir el ingreso en la aplicación), deberá ingresar a la lista de usuarios, seleccionar el/los usuario/s a ser bloqueados y luego clickear en el botón bloquear.'
   },

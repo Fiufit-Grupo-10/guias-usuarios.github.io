@@ -190,6 +190,9 @@ class _HomePageState extends State<HomePage> {
                                           arguments: [listaDocsWeb[index]])),
                                 );
                               }),
+                          const SizedBox(
+                            height: 30,
+                          )
                         ],
                       ),
                     ),

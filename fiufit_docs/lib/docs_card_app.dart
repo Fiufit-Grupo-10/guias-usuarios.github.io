@@ -101,43 +101,77 @@ final List<Map<String, dynamic>> docsCardApp = [
     'title': 'Login con datos biométricos (Optativa)',
     'images':
         'https://drive.google.com/uc?export=view&id=1K5Ovp1pmEjn7NY3UWs9dvytl3jClWOEm https://drive.google.com/uc?export=view&id=1OCZPAbuAZ85ppYRR5gWIyexwUeuvo8bJ https://drive.google.com/uc?export=view&id=1wVQ5y3KgDPUIKKir3sJAuYe2tnkjShS5',
-    'descr': ''
+    'descr':
+        'Si queremos ingresar con nuestros Datos biometricos, como por ejemplo la cara, debemos primero iniciar sesion recordandonos, y luego, en otra oportunidad tocar el boton de ingresar con datos biometricos, si tenemos alguno, deberiamos poder ingresar luego de proporcionar dichos datos'
   },
   {
     'title': 'Recupero de contraseña (Optativa)',
     'images':
         'https://drive.google.com/uc?export=view&id=1B4hRGHu0VavoGBAVig3nE6LCkgLUUNkb https://drive.google.com/uc?export=view&id=1W407CKqHM6d1aunODnKLxYEPLPX8ma_o https://drive.google.com/uc?export=view&id=1F0iRGKGVAUlrjqYJ8yLikkCU0UJs_7JJ',
-    'descr': ''
+    'descr':
+        'Si nos olvidamos la contraseña, es posible pedir una nueva a traves de la pantalla de login. Una vez que proporcionamos el mail, si tenemos una cuenta con ese mail nos deberia llegar un mail con los pasos a seguir.'
   },
   {
     'title': ' Notificación de PIN en proceso de registro (Optativa)',
     'images':
         'https://drive.google.com/uc?export=view&id=11HcA1OFhnHI4xwQe_c12t9Rot47UeiUu https://drive.google.com/uc?export=view&id=1Lajhk7uvkkFwdXxtwFwNzxepFhha6IsD https://drive.google.com/uc?export=view&id=1tjV-52Ompy-JhdfDX206ITHK4PKlHCwY https://drive.google.com/uc?export=view&id=1Y45tzlClfYOwitzLlsZBqd4IprfK0wOn',
-    'descr': ''
+    'descr':
+        'Una vez verificado el mail en el proceso de registracion, debemos verificar nuestro telefono. Para esto, debemos elegir nuestro pais de origen (Argentina = Ar) y luego proporcionar nuestro telefono, con numero de area y telefono. Luego enviamos y debemos verificar el pin que nos llego en los mensajes. Si es correcto iras a la pantalla de los formularios, sino te quedaras aca'
   },
   {
     'title': 'Búsquedas por dificultad (Optativa)',
     'images':
         'https://drive.google.com/uc?export=view&id=1rG5_RR9SQ5ufFH6DzPhk-NVv0stFOW_U https://drive.google.com/uc?export=view&id=1Sx40vSK1jANULDYEBsEMkeqiYYmORhhs',
-    'descr': ''
+    'descr':
+        'Si deseamos buscar planes de entrenamiento por dificultad, solamente debemos estar logeados e ir a la pantalla de entrenamientos que se encuentra debajo del celular. Luego de esto clickeamos sobre el switch de arriba y cambiamos a la pantalla de dificultad. Por ultimo entramos a cualquier pantalla y observamos los entrenamiento filtrados por dificultad'
   },
   {
     'title': 'Entrenamientos favoritos (Optativa)',
     'images':
         'https://drive.google.com/uc?export=view&id=1NjWM5D-bCLvh2n2LGC2KCgCblsdO21zW https://drive.google.com/uc?export=view&id=14vxkD4cokSVmJDZnamWINf1y52OXODPP https://drive.google.com/uc?export=view&id=1yCCw1RjLzBx6NSeKKFUPtbfTgPgnhcKV https://drive.google.com/uc?export=view&id=1ZGG1vOTBGCPtW_SIdNUFPMaNekTsX6-P',
-    'descr': ''
+    'descr':
+        'Si te gusto un plan de entrenamiento y lo deseas volver a hacer. Se puede agregar el entrenamiento favorito en la pantalla del entrenamiento con el boton de agregar. Luego de esto, se pueden ver los entrenamientos favoritos tocando en cualquier pantalla el boton de arriba a la izquierda y luego en entrenamientos favoritos, tocando sobre dichos entrenamientos entrariamos a la pantalla propia de cada entrenamiento'
   },
   {
     'title': 'Redes sociales (Optativa)',
     'images':
         'https://drive.google.com/uc?export=view&id=1R0rA2JaFX1RySo0wDxhNSIw0Kbe4mP7Z https://drive.google.com/uc?export=view&id=1C4gR1g4lfVWGomBoVcvKawW4YhnN4BFn https://drive.google.com/uc?export=view&id=1VXYmqZahvxwRBDeGF556Hv9f1XjDOkKr https://drive.google.com/uc?export=view&id=1ClUvCOtMLFiV0iSp2-gS6A5pWAn5DU3M https://drive.google.com/uc?export=view&id=1SRpNpqgDP73BXuo3F3lAXsXYYqLmeDx_ https://drive.google.com/uc?export=view&id=1rmzuJHHbfVfwVe7KbXZv6-pf_LZlVQko https://drive.google.com/uc?export=view&id=1n_Iag6v15FWGl8EAehoxSLQlkJmd3uQp',
-    'descr': ''
+    'descr':
+        'Si queremos compartir nuestras metricas debemos tocar el boton de arriba a la izquierda y luego acceder a la pantalla de metricas. Luego de esto debemos filtrar por la fecha que queremos y luego tocamos en compartir metricas y seleccionamos a donde queremos compartirlas. Lo mismo se puede hacer en metas, podemos buscar nuestras metas completadas en la pantalla metas ubicada arriba del boton de metricas, y luego tocamos en el switch para mostrar las metas completadas, a partir de eso podemos compartir si es que tenemos metas completadas a nuestras apps preferidas.'
   },
   {
     'title': 'Calificación cualitativa de un plan de entrenamiento (Optativa)',
     'images':
         'https://drive.google.com/uc?export=view&id=13q3FDAQpqZFF3BnSL5w8SzPhZpiCJrQk https://drive.google.com/uc?export=view&id=1pnFwbR6RKMvXuH2gl6N0zRNJofw_CbqY https://drive.google.com/uc?export=view&id=1OXnEbbadtK3jfyo4KOFvk3NfqWrk-aMc',
-    'descr': ''
+    'descr':
+        'Despues de hacer un entrenamiento nosotros podemos calificarlo por como nos salio, si estaba de acorde a la dificultad impuesta o otras cosas que nosotros pensemos que son necesarias para mejorar. Para acceder a esta parte, debemos acceder a un entrenamiento (dirijase a la pantalla de entrenamientos) y luego scrollear hasta la parte de los reviews, luego debemos poner las estrellas y el comentario que queramos, y lo enviamos. Deberiamos poder verlo en la caja de reviews de arriba.'
   },
-  {'title': '', 'images': '', 'descr': ''},
+  {
+    'title': 'Notificación por nuevo mensaje',
+    'images':
+        'https://drive.google.com/uc?export=view&id=1lmsAATqmUDjIMDMGJGp0r-MYjLAqCZF1 https://drive.google.com/uc?export=view&id=1z6XN7SySR8xf9fZHnDM5dVs2-HtNixDC https://drive.google.com/uc?export=view&id=1v0PhrFnQBAosSbgqAOmyYpHSw1M0fo1e',
+    'descr':
+        'En una conversación por mensajes directos con otro usuario podremos visualizar notificaciones de los mensajes recibidos estando fuera de la app'
+  },
+  {
+    'title': 'Aprobar solicitud de entrenador reconocido (Optativa)',
+    'images':
+        'https://drive.google.com/uc?export=view&id=17sUtUwo2fNM36OlASoUxSpsQ5JxOaF8Y https://drive.google.com/uc?export=view&id=12O83Z9tZjlk4-qp-Mzhffzho9RvQ2J9c https://drive.google.com/uc?export=view&id=1suaNXZJBrgb7wZdNkkFIppW33ThUMG9- https://drive.google.com/uc?export=view&id=1PJNiOBBrkFeYqMQ6tsota7SmktWJ3KkP',
+    'descr':
+        'Si queremos enviar una solicitud para ser un entrenador reconocido, debemos acceder a la opcion Create request, allí encontraremos el botón Enviar nueva solicitud que al seleccionarlo nos permitirá elegir un video para ser enviado. Una vez sea aprobado veremos en nuestro perfil (y otros usuarios lo verán) la certificación correspondiente.'
+  },
+  {
+    'title': 'Login de usuarios con proveedores de identidad federada',
+    'images':
+        'https://drive.google.com/uc?export=view&id=1EzQs88L5PYShHLLayOFgegCFGDm88sqO https://drive.google.com/uc?export=view&id=1Wj2xf3AOS70Jid6CiH0vDULI8DZ28OAk https://drive.google.com/uc?export=view&id=1Zp0SrQx7lYaXzBiRM-paCA796tT9kLgc https://drive.google.com/uc?export=view&id=1KdFtU9abeqkcDzOOFUi7BRP59SICGGFj',
+    'descr':
+        'Para poder ingresar con identidad federada primero ingresar en Iniciar Sesión, luego seleccionar la opción de Google, finalmente elegir la cuenta registrada para entrar al sistema'
+  },
+  {
+    'title': 'Edicion de Plan de Entrenamiento',
+    'images':
+        'https://drive.google.com/uc?export=view&id=1pLALb7Ks7_C0IKlMc2crcxKlJy7rTVa7 https://drive.google.com/uc?export=view&id=1rqbx88MlwqQuvdIjpywrI6K0dhyfQh68 https://drive.google.com/uc?export=view&id=1dmO_-QZyYqztw88FMlA0YbhnHobAePzB',
+    'descr':
+        'Si quieres editar un entrenamiento, debes cambiar a la vista de entrenador, y luego entrar en la pestaña de mis planes de entrenamiento. Si tenes un entrenamiento podes editarlo con el boton de editar. Luego de esto, podes cambiar los datos que quieras y luego guardarlos en la siguiente pantalla'
+  },
 ];
