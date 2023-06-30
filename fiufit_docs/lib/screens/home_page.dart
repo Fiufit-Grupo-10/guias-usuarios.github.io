@@ -108,6 +108,7 @@ class _HomePageState extends State<HomePage> {
                           url1: "fiufit-grupo-10.github.io",
                           url2: "/backoffice-deploy.github.io/",
                           text: "BackOffice Web"),
+                      /*
                       BotonUrl(
                           url1: "fiufit-grupo-10.github.io",
                           url2: "/backoffice-deploy.github.io/",
@@ -115,7 +116,7 @@ class _HomePageState extends State<HomePage> {
                       BotonUrl(
                           url1: "fiufit-grupo-10.github.io",
                           url2: "/backoffice-deploy.github.io/",
-                          text: "Documentación"),
+                          text: "Documentación"),*/
                     ],
                   ),
                   Container(

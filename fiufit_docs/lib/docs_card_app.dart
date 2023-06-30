@@ -174,4 +174,25 @@ final List<Map<String, dynamic>> docsCardApp = [
     'descr':
         'Si quieres editar un entrenamiento, debes cambiar a la vista de entrenador, y luego entrar en la pestaña de mis planes de entrenamiento. Si tenes un entrenamiento podes editarlo con el boton de editar. Luego de esto, podes cambiar los datos que quieras y luego guardarlos en la siguiente pantalla'
   },
+  {
+    'title': 'Monitoreo de entrenamiento',
+    'images':
+        'https://drive.google.com/uc?export=view&id=1UWj8Omb_wjKuecaXC8zCJFa2Adnl-FvX https://drive.google.com/uc?export=view&id=1b75UDRWYD3tyjSM9MDReuyV0sOOW8cjz https://drive.google.com/uc?export=view&id=1hw95hr2DtSALZD4yaWj7kpdhF0vsyLyn https://drive.google.com/uc?export=view&id=1Vo3g1iFgOwKZYCHp_yF0UyJ9tBxd2R_H',
+    'descr':
+        'Para poder monitorear los entrenamientos y ver el porcentaje de avance sobre las mismas en la seccion de metas de entrenamiento, se deberá finalizar un ejercicio y ver los cambios en la misma seccion de antes'
+  },
+  {
+    'title': 'Métricas del entrenador (Optativa)',
+    'images':
+        'https://drive.google.com/uc?export=view&id=1ExJJnHAZu0i7JDDnETGrdoqaPSbUMb3D https://drive.google.com/uc?export=view&id=1NK8dFgTqznsmjT03Aqeg4gsUjKsrzMCp https://drive.google.com/uc?export=view&id=1Ve9af2iaco2mbIYnegR8ZbtJ2gv7ziqD',
+    'descr':
+        'Para visualizar las métricas de un entrenamiento primero deberá dirigirse a la sección de My trainigs y clickear en el botón de métricas del ejercicio correspondiente y se listarán todas las métricas.'
+  },
+  {
+    'title': 'Notificación por hito de seguidores (Optativa)',
+    'images':
+        'https://drive.google.com/uc?export=view&id=17cedlbSmXVewSEiG-jMmvZbYA6IimG3f https://drive.google.com/uc?export=view&id=18-FL8Z8mnnikLZB_-gEpBv6RNHzRYPJR https://drive.google.com/uc?export=view&id=1ULlqZlz8TXCRXxaL62UyrrpAw3gniglA',
+    'descr':
+        'Si la aplicación se encuentra en segundo plano y otro usuario empieza a seguirte, llegará una notificación a tu celular!'
+  },
 ];
