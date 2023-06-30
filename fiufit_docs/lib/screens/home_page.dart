@@ -116,6 +116,12 @@ class _HomePageState extends State<HomePage> {
                               "/drive/folders/1JDRhNWGon5-hGBIXXkDNOGnIH6akKqZ6",
                               {'usp': 'sharing'}),
                           text: "APK"),
+                      BotonUrl(
+                          uri: Uri.https(
+                              "drive.google.com",
+                              "/drive/folders/1vmH7KGQQiCxvMNTCKOuLFCXrpJDFRYQZ",
+                              {'usp': 'sharing'}),
+                          text: "Informe"),
                     ],
                   ),
                   Container(
