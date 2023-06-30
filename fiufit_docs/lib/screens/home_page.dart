@@ -49,8 +49,9 @@ class _HomePageState extends State<HomePage> {
     final Size size = MediaQuery.of(context).size;
     getDocs();
     return Scaffold(
+        backgroundColor: const Color(0x00f4f2f3),
         appBar: AppBar(
-          backgroundColor: Colors.cyan,
+          backgroundColor: Colors.cyan.shade300,
           title: const Text(
             "FiuFit - Guias de Usuario",
             style: TextStyle(color: Colors.white, fontSize: 28),
@@ -108,22 +109,18 @@ class _HomePageState extends State<HomePage> {
                           url1: "fiufit-grupo-10.github.io",
                           url2: "/backoffice-deploy.github.io/",
                           text: "BackOffice Web"),
-                      /*
                       BotonUrl(
-                          url1: "fiufit-grupo-10.github.io",
-                          url2: "/backoffice-deploy.github.io/",
-                          text: "Apk"),
-                      BotonUrl(
-                          url1: "fiufit-grupo-10.github.io",
-                          url2: "/backoffice-deploy.github.io/",
-                          text: "Documentación"),*/
+                          url1: "drive.google.com",
+                          url2:
+                              "/uc?export=view&id=1JDRhNWGon5-hGBIXXkDNOGnIH6akKqZ6",
+                          text: "APK"),
                     ],
                   ),
                   Container(
                     margin: const EdgeInsets.all(20),
                     width: double.infinity,
                     height: 5,
-                    color: Colors.cyan,
+                    color: Colors.cyan.shade300,
                   ),
                   const Padding(
                     padding: EdgeInsets.only(left: 50.0, bottom: 10),
@@ -223,8 +220,10 @@ class BotonUrl extends StatelessWidget {
       padding: const EdgeInsets.all(10.0),
       child: ElevatedButton(
           style: ElevatedButton.styleFrom(
-            backgroundColor: Colors.black38.withOpacity(0.4),
-          ),
+              shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(12)),
+              elevation: 5,
+              backgroundColor: Colors.deepOrange),
           onPressed: () async {
             await launchUrl(Uri.https(url1, url2));
           },
