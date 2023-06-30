@@ -96,23 +96,25 @@ class _HomePageState extends State<HomePage> {
                         style: TextStyle(
                             fontWeight: FontWeight.bold, fontSize: 24)),
                   ),
-                  const Row(
+                  Row(
                     children: [
-                      SizedBox(
+                      const SizedBox(
                         width: 60,
                       ),
                       BotonUrl(
-                          url1: "github.com",
-                          url2: "/orgs/Fiufit-Grupo-10/repositories",
+                          uri: Uri.https("github.com",
+                              "/orgs/Fiufit-Grupo-10/repositories"),
                           text: "GitHub"),
                       BotonUrl(
-                          url1: "fiufit-grupo-10.github.io",
-                          url2: "/backoffice-deploy.github.io/",
+                          uri: Uri.https("fiufit-grupo-10.github.io",
+                              "/backoffice-deploy.github.io/"),
                           text: "BackOffice Web"),
+                      //Uri.https(url1, url2, {'usp': 'sharing'})
                       BotonUrl(
-                          url1: "drive.google.com",
-                          url2:
-                              "/uc?export=view&id=1JDRhNWGon5-hGBIXXkDNOGnIH6akKqZ6",
+                          uri: Uri.https(
+                              "drive.google.com",
+                              "/drive/folders/1JDRhNWGon5-hGBIXXkDNOGnIH6akKqZ6",
+                              {'usp': 'sharing'}),
                           text: "APK"),
                     ],
                   ),
@@ -207,12 +209,10 @@ class _HomePageState extends State<HomePage> {
 class BotonUrl extends StatelessWidget {
   const BotonUrl({
     super.key,
-    required this.url1,
-    required this.url2,
     required this.text,
+    required this.uri,
   });
-  final String url1;
-  final String url2;
+  final Uri uri;
   final String text;
   @override
   Widget build(BuildContext context) {
@@ -225,7 +225,7 @@ class BotonUrl extends StatelessWidget {
               elevation: 5,
               backgroundColor: Colors.deepOrange),
           onPressed: () async {
-            await launchUrl(Uri.https(url1, url2));
+            await launchUrl(uri);
           },
           child: Text(
             text,
